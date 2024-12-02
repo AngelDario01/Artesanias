@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ARTESANIAS-MIXE</title>
+        <!--ENLACE AL ARCHIVO CSS-->
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'clientes/css/style.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'clientes/css/boxicons.min.css' %}">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+
+            <a class="logo" href="#"><span class="ar">ARTESANIAS</span><span>-</span><span class="mixe">MIXE</span></a>
+
+            <ul class="navbar">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#dama">ropa de dama</a></li>
+                <li><a href="#">ropa de caballero</a></li>
+                <li><a href="#">ropa de niño</a></li>
+            </ul>
+
+            <div class="h-derecha">
+                <a href="#">siguenos</a>
+                <a href="#"> <i class='bx bxl-instagram-alt'> </i> </a>
+                <a href="#"> <i class='bx bxl-facebook-square'> </i> </a>
+                <a href="#"> <i class='bx bxl-whatsapp-square'> </i> </a>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+
+        </header>
+
+        <section id="home" class="home">
+            <div class="hometexto">
+                <h5 id="typed">artesanias</h5>
+                <h1>lo mejor en artesanias</h1>
+                <p>la mejor calidad para tus gustos artesanales</p>
+                <a href="#" id="boton-contacto" class="btn">CONTACTENOS</a>
+            </div>
+        </section>
+
+        <section id="dama" class="columnaadrs">
+            <div data-aos="zoom-in" class="col-colum">
+                <div class="row">
+                    <div class="rowimage">
+                        <img src="{% static 'clientes/img/zapato1.jpg' %}" alt="">
+                    </div>
+                    <h4>zapato 1</h4>
+                </div>
+
+                <div class="row">
+                    <div class="rowimage">
+                        <img src="{% static 'clientes/img/zapato2.jpg' %}" alt="">
+                    </div>
+                    <h4>zapato 2</h4>
+                </div>
+
+                <div class="row">
+                    <div class="rowimage">
+                        <img src="{% static 'clientes/img/zapato3.jpg' %}" alt="">
+                    </div>
+                    <h4>zapato 3</h4>
+                </div>
+
+                <div class="row">
+                    <div class="rowimage">
+                        <img src="{% static 'clientes/img/zapato4.jpg' %}" alt="">
+                    </div>
+                    <h4>zapato 4</h4>
+                </div>
+
+                <div class="row">
+                    <div class="rowimage">
+                        <img src="{% static 'clientes/img/zapato5.jpg' %}" alt="">
+                    </div>
+                    <h4>zapato 5</h4>
+                </div>
+
+            </div>
+            
+        </section>
+
+
+        <section class="actividad">
+            <div  class="ac-colum">
+                <div class="acrow">
+                    <div  data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500" class="acimage">
+                        <div>
+                        <img src="{% static 'clientes/img/zapato6.jpg' %}" alt="" class="image">
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="acrow">
+                    <h4>OFERTA 50% de descuento</h4>
+                    <h2>adquierela</h2>
+                    <p>informacion via email</p>
+                    <a href="#" id="boton-compra" class="btn">comprar</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div  class="footer-col">
+                    <h4 id="act">Acerca de</h4>
+                    <ul>
+                        <li><a href="">Historia</a></li>
+                        <li><a href="">Experiecias</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-col">
+                    <h4 id="act">Politicas</h4>
+                    <ul>
+                        <li><a href="#">Misión</a></li>
+                        <li><a href="#">Visión</a></li>
+                        <li><a href="#">Valores</a></li>
+                        <li><a href="#">Principios</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-col">
+                    <h4 id="act">Siguenos en:</h4>
+                    <ul class="socials">
+                        <li><a href="#"><i class='bx bxl-facebook-square'></i> Facebook</a></li>
+                        <li><a href="#"><i class='bx bxl-instagram-alt'></i> Instagram</a></li>
+                        <li><a href="#"><i class='bx bxl-twitter'></i> Twitter</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-col">
+                    <h4 id="act">Métodos de pago</h4>
+                    <ul>
+                        <li><a href="#">Efectivo</a></li>
+                        <li><a href="#">Transferencia</a></li>
+                        <li><a href="#">Pagos con tarjeta</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+    </body>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="{% static 'clientes/js/script.js' %}"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+     </script>
+
+    </html>
