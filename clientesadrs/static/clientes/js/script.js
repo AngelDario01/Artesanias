@@ -12,11 +12,11 @@ document.querySelector('.btn').addEventListener("click", function(){
 })*/
 
 //agregar un evento click a cada uno de los botones encontrado con una una misma clase
-document.querySelectorAll('.btn').forEach(function(button){
+/*document.querySelectorAll('.btn').forEach(function(button){
     button.addEventListener('click', function(){
         alert('gracias por contactarnos');
     })
-})
+})*/
 
 //funcion para los botones haciendolas con su id declarado en html
 document.getElementById('boton-contacto').addEventListener('click', function(){
