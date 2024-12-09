@@ -4,9 +4,9 @@ window.addEventListener("scroll", function(){
 });
 
 //agregar un evento click al elemento clase .btn
-document.querySelector('.btn').addEventListener("click", function(){
-    alert('te hemos contactado');
-})
+//document.querySelector('.btn').addEventListener("click", function(){
+  //  alert('te hemos contactado');
+//})
 /*document.querySelector('.boton').addEventListener("click", function(){
     alert('desea aceptar su compra');
 })*/
