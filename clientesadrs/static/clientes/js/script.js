@@ -23,7 +23,7 @@ document.getElementById('boton-contacto').addEventListener('click', function(){
     alert('hemos guardado sus datos para contactarlo');
 })
 document.getElementById('boton-compra').addEventListener('click', function(){
-    alert('compra realizada con exito');
+    alert('sera dirigido a la seccion de registro');
 })
 
 document.querySelectorAll('.navbar a[href^="#"]').forEach(function(enlace){
