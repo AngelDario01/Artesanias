@@ -55,7 +55,7 @@ h1 {
 
 }
 
-.btn {
+.btns {
     display: inline-block;
     padding: 13px 40px;
     background: var(--main-color);
