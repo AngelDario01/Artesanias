@@ -5,7 +5,7 @@ window.addEventListener("scroll", function(){
 
 //agregar un evento click al elemento clase .btn
 //document.querySelector('.btn').addEventListener("click", function(){
-  //  alert('te hemos contactado');
+  //  alert('sera dirigido a la seccion de registro');
 //})
 /*document.querySelector('.boton').addEventListener("click", function(){
     alert('desea aceptar su compra');
@@ -14,7 +14,7 @@ window.addEventListener("scroll", function(){
 //agregar un evento click a cada uno de los botones encontrado con una una misma clase
 /*document.querySelectorAll('.btn').forEach(function(button){
     button.addEventListener('click', function(){
-        alert('gracias por contactarnos');
+        alert('sera dirigido a la seccion de registro');
     })
 })*/
 
