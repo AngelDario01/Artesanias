@@ -8,7 +8,7 @@ document.querySelector('.btn').addEventListener("click", function(){
     alert('sera dirigido a la seccion de registro');
 })
 document.querySelector('.boton').addEventListener("click", function(){
-    alert('desea aceptar su compra');
+    alert('sera dirigido a la seccion de registro');
 })
 
 //agregar un evento click a cada uno de los botones encontrado con una una misma clase
